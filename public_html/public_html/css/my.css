@@ -1,0 +1,109 @@
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+.item:hover
+{ 
+  background-color:var(--mainDark);
+transition: all 0.7s ease-in-out;
+}
+/* .container
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+ position: relative; 
+} 
+*/
+.whole
+{
+  width:auto;
+}
+
+.insider
+{
+width: 50vh;
+ min-height: calc(50vh - 100px); 
+height: 50vh;
+/* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../hostel1.jpg") center/cover fixed no-repeat; */
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+ position: relative; 
+}
+
+/*
+.myform
+{
+    width: 60vh;
+    height: 60vh;
+    top: 30%;
+    left: 20%;
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    position: absolute;
+}
+.submit-form
+{
+   text-align: center;
+}
+
+.black__btn {
+  color: var(--mainGrey);
+  border: 0.1rem solid var(--mainGrey);
+  background: transparent;
+}
+*/
+.btn-hover:hover,:visited
+{
+ background-color: blue;
+ transition:all 0.7s ease-in-out ;
+ border-color: blue;
+}
+.black-color
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+.white-color
+{
+color: var(--mainWhite);
+}
+
+#cover {
+  background: #222 url('../img/samanta_sir.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#cover-caption {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

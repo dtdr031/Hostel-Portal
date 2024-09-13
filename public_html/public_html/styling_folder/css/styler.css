@@ -1,0 +1,23 @@
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #3CBC8D;
+}
+input[type=number] {
+  border: none;
+  border-bottom: 2px solid #3CBC8D;
+}
+input[type=date] {
+  border: none;
+  border-bottom: 2px solid #3CBC8D;
+}
+.field_style
+{
+      border: none;
+  border-bottom: 2px solid #3CBC8D;
+}
+.complaint_styler
+{
+    width: auto;
+    height: auto;
+    background-color: #C5CBE3!important;
+}
